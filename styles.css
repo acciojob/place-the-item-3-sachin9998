@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+#holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#holder > div {
+  flex: 1;
+  margin: 10px;
+  /* You can add other styling for individual items here */
+}
