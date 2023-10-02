@@ -1,13 +1,17 @@
-
-/* Your CSS Code here. */
-#holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
 }
-
-#holder > div {
-  flex: 1;
-  margin: 10px;
-  /* You can add other styling for individual items here */
-}
+#flex-item1{
+	background-color:green;
+	height:100px;
+	width:100px;}
+#flex-item2{background-color:red;
+	height:100px;
+	width:100px;
+	}
+#flex-item3{background-color:blue;
+	height:100px;
+	width:100px;
+	}
